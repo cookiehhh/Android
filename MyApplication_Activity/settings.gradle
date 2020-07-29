@@ -1,0 +1,1 @@
+include ':app', ':app_intent', ':app2', ':app3', ':app_fragment', ':app4'

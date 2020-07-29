@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="按钮1"/>
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/btn_one"
+        android:text="按钮2"/>
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="按钮3"
+        android:layout_below="@id/btn_two"
+        android:layout_toRightOf="@id/btn_one"/>
+    <Button
+        android:id="@+id/btn_fore"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="按钮4"
+        android:layout_toRightOf="@id/btn_three"
+        android:layout_below="@id/btn_two"/>
+
+
+</RelativeLayout>

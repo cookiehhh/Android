@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:textSize="26sp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择您的性别："
+        android:textSize="26sp"
+        android:textColor="#000"/>
+    <RadioGroup
+        android:id="@+id/rdg_geder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rd_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rd_weman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"/>
+
+
+</LinearLayout>

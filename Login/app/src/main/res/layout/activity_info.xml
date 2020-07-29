@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="昵称"
+        android:gravity="left"
+        android:textSize="24sp"
+        android:background="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名"
+        android:gravity="left"
+        android:textSize="24sp"
+        android:background="#FFF"/>
+    <Button
+        android:id="@+id/btn_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="性别"
+        android:gravity="left"
+        android:textSize="24sp"
+        android:background="#FFF"/>
+    <Button
+        android:id="@+id/btn_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的地址"
+        android:gravity="left"
+        android:textSize="24sp"
+        android:background="#FFF"/>
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个性签名"
+        android:gravity="left"
+        android:textSize="24sp"
+        android:background="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:background="@color/seagreen"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button
+            android:text="\"
+            android:layout_column="0"/>
+        <Button
+            android:text="星期一"
+            android:layout_column="1"/>
+        <Button
+            android:text="星期二"
+            android:layout_column="2"/>
+        <Button
+            android:text="星期三"
+            android:layout_column="3"/>
+        <Button
+            android:text="星期四"
+            android:layout_column="4"/>
+        <Button
+            android:text="星期五"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="第一大节"
+            android:layout_column="0"/>
+        <Button
+            android:text="线性代数"
+            android:layout_column="1"/>
+        <Button
+            android:text="大学英语"
+            android:layout_column="2"/>
+        <Button
+            android:text="安卓开发"
+            android:layout_column="3"/>
+        <Button
+            android:text="线性代数"
+            android:layout_column="4"/>
+        <Button
+            android:text="高等数学"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="第二大节"
+            android:layout_column="0"/>
+        <Button
+            android:text=""
+            android:layout_column="1"/>
+        <Button
+            android:text="高等数学"
+            android:layout_column="2"/>
+        <Button
+            android:text="安卓开发"
+            android:layout_column="3"/>
+        <Button
+            android:text="大学英语"
+            android:layout_column="4"/>
+        <Button
+            android:text="软件测试"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="第三大节"
+            android:layout_column="0"/>
+        <Button
+            android:text="安卓开发"
+            android:layout_column="1"/>
+        <Button
+            android:text=""
+            android:layout_column="2"/>
+        <Button
+            android:text="软件测试"
+            android:layout_column="3"/>
+        <Button
+            android:text="JQ"
+            android:layout_column="4"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大学语文"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="第四大节"
+            android:layout_column="0"/>
+        <Button
+            android:text="JQ"
+            android:layout_column="1"/>
+        <Button
+            android:text=""
+            android:layout_column="2"
+            android:layout_span="3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大学语文"
+            android:layout_margin="0dp"
+            android:layout_column="5"/>
+
+    </TableRow>
+
+
+</TableLayout>

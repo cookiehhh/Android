@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="cat_intro">
+        猫，属于猫科动物，分家猫，野猫，是全世界家庭中较为广泛的宠物。
+    </string>
+    <string name="siberriankusky_intro">
+        西伯利亚雪橇犬，常见别名哈士奇，昵称为二哈。
+    </string>
+    <string name="yellowduck_intro">
+        鸭的体型相对较小，颈短，一些属的嘴要大些，腿位于身体后方，因而步态蹒跚。
+    </string>
+    <string name="fawn_intro">
+        鹿科是哺乳纲偶蹄目下的一科动物，体型大小不等，为有角的反刍类。
+    </string>
+    <string name="tiger_intro">
+        虎，大型猫科动物，毛色浅黄或棕黄色，满有黑色横纹，头圆，耳短，耳背面黑色，中央有一白斑甚显著，四肢健壮有力，尾粗长，具黑色环纹，尾端黑色。
+    </string>
+</resources>
